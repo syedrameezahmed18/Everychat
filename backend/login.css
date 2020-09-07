@@ -1,0 +1,41 @@
+.navbar {
+    overflow: hidden;
+    background: rgba(0,0,0,0.8);
+    z-index:2;
+    height:80px;
+  }
+
+  .lookgood{
+      font-size: 24px;
+      color:white;
+      font-family: 'Lato', sans-serif;
+      margin-top:1.8%;
+      margin-left:2%;
+  }
+  
+  /* Navbar links */
+
+  
+  /* Page content */
+  
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .turn{
+      padding-top:50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  form{
+      margin-top:3%;
+  }
+  .lookgood:hover{
+    cursor:pointer;
+}
+  

@@ -1,0 +1,120 @@
+.navbar {
+    overflow: hidden;
+    background: rgba(0,0,0,0.8);
+    z-index:2;
+    height:80px;
+  }
+
+  .lookgood{
+      font-size: 24px;
+      color:white;
+      font-family: 'Lato', sans-serif;
+      margin-top:1.8%;
+      margin-left:2%;
+  }
+  .lookgood:hover{
+      cursor:pointer;
+  }
+  /* Navbar links */
+
+  
+  /* Page content */
+  
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+ 
+.containment{
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:100px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.imagesflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top:100px;
+    
+}
+.card{
+    width:300px;
+    margin-left:2%;
+    margin-top:2%;
+    margin-right:2%;
+}
+form{
+    height:140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.form-control{
+    width:350px;
+}
+.coming{
+    width:200px;
+    height:auto;
+}
+.commentsection,.commentsection1{
+    
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.containercom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    height: auto;
+    width:500px;
+}
+.commentblock{
+    text-align: left;
+    
+}
+.buttondivs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.headings p{
+    font-weight: 700;
+
+}
+.og,.og1{
+   
+    margin-top: 2%;
+}
+.oro{
+    color:white;
+    background: rgba(0,0,0,0.5);
+}
+.fade{
+    display: none;
+}
